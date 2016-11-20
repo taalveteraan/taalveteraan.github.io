@@ -617,11 +617,6 @@ input[type="submit"] {
     font-size: 18px;
   }
 
-  .hero, .highlight {
-    background: #424242 url(books.jpg) no-repeat fixed center;
-    background-size: cover;
-  }
-
   .highlight {
     height: 250px;
   }
@@ -670,6 +665,8 @@ input[type="submit"] {
   }
 
   .hero, .highlight {
+    background: #424242 url(books.jpg) no-repeat fixed center;
+    background-size: cover;
     height: 600px;
   }
 
