@@ -476,8 +476,7 @@ html {
 }
 
 .hero, .highlight {
-  background: #424242 url(books.jpg) no-repeat fixed center;
-  background-size: cover;
+  background: #424242;
   height: 400px;
   position: relative;
 }
@@ -604,7 +603,7 @@ input, textarea {
   width: 90%;
 }
 
-input[type="submit"], button {
+input[type="submit"] {
   color: #ffffff;
   background-color: #424242;
   border: none;
@@ -613,17 +612,14 @@ input[type="submit"], button {
   margin: 10px 0 0;
 }
 
-button {
-  margin: 20px 0 0;
-}
-
-button a {
-  color: #ffffff;
-}
-
 @media (min-width: 580px) {
   html {
     font-size: 18px;
+  }
+
+  .hero, .highlight {
+    background: #424242 url(books.jpg) no-repeat fixed center;
+    background-size: cover;
   }
 
   .highlight {
