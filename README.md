@@ -1,2 +1,2 @@
 # taalveteraan.github.io
-website voor https://www.taalveteraan.be
+website voor Taalveteraan https://www.taalveteraan.be
